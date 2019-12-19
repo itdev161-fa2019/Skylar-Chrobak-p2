@@ -1,0 +1,37 @@
+{
+  "name": "Skylar-Chrobak-161-P2",
+  "version": "1.0.0",
+  "description": "Skylar-Chrobak-161-P2",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-scripts test",
+    "start": "react-scripts start",
+    "server": "nodemon -r esm server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\"\"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/itdev161-fa2019/Skylar-Chrobak-p2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdev161-fa2019/Skylar-Chrobak-p2/issues"
+  },
+  "homepage": "https://github.com/itdev161-fa2019/Skylar-Chrobak-p2#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
+  }
+}
